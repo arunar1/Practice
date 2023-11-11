@@ -6,6 +6,11 @@ public class Hello{
         //datatype
         byte Age=30;
         System.out.println(Age);
+        
+
+        String message="Hello word" + " !!";
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.replace("!","*"));
 
         //when using long use l/L as suffix to the number
     }

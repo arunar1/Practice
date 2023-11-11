@@ -5,3 +5,9 @@ datatypes
 primitive : byte, short, int, long, float, double, char, boolean
 
 
+String datatype :
+
+endsWith()
+indexOf()
+startsWith()
+replace()
