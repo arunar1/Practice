@@ -1,4 +1,7 @@
 java basic
 
-variables
-''''''''''
+datatypes
+
+primitive : byte, short, int, long, float, double, char, boolean
+
+
