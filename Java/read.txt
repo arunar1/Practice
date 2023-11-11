@@ -14,3 +14,15 @@ replace()
 toLowerCase()
 toUpperCase()
 trim()
+
+Escape sequence :
+
+\n -> new line
+\" -> double quotes
+\\ -> 
+\' -> single quotes
+\t -> tab
+
+
+Arrays
+

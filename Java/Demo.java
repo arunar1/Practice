@@ -1,4 +1,4 @@
-public class Hello{
+public class Demo{
     public static void main(String[] args){
         int age=45;
         System.out.println(" Hello");
