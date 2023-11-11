@@ -41,3 +41,65 @@ multi Dimensional Arrays
 int[][] numbers=new int[5][5]
 
 int multi dimensional array deep to string instead of tostring in single dimensional array
+
+
+
+constants
+'''''''''
+
+finel is used to initialize
+
+finel float PI=3.14f
+
+
+Arithmatic Expression
+'''''''''''''''''''''
+*
++
+-
+/
+/
+++
+--
+
+
+preference :
+'''''''''''
+()
+*/
++-
+
+
+
+casting
+'''''''''
+implicit casting : automatic conversion
+
+byte > short > int > long > float > double
+
+
+explicit casting: 
+
+    double x=1.1
+    int y = (int)x + 2
+
+
+Integer.parsInt()  // string to Integer
+double.parseDouble()
+
+
+math class
+"""""""""
+
+performing mathamatical operation
+
+
+Math.round()
+Math.ceil()
+Math.random()
+Math.floor()
+Math.max()
+
+Reading input
+''''''''''''''
+

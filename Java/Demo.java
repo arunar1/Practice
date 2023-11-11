@@ -45,5 +45,25 @@ public class Demo{
         
         int[][] num1= {{1,2,3},{1,2}};
         System.out.println(Arrays.deepToString(num1));
+
+
+        //Arithmaeic operation
+
+        double result=10/3;
+        System.out.println(result);
+
+
+        //for the division
+
+        double result1=(double)10/(double)3;
+        System.out.println(result1);
+
+
+        //math functions
+
+        double result3=Math.ceil(1.1f);
+        System.out.println(result3);
     }
+
+
 }
