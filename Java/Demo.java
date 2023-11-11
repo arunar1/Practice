@@ -25,12 +25,14 @@ public class Demo{
         numbers[3]=4;
         
 
-        int[] num={1,2,3,4};
+        int[] num={1,2,3,4,11,8,};
         System.out.println(Arrays.toString(num));
 
         System.out.println(numbers.length);
 
         System.out.println(Arrays.toString(numbers));
+        Arrays.sort(num);
+        System.out.println(Arrays.toString(num));
         
     }
 }

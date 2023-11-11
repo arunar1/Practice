@@ -1,12 +1,12 @@
 java basic
-
+'''''''''
 datatypes
-
+'''''''''
 primitive : byte, short, int, long, float, double, char, boolean
 
 
 String datatype :
-
+'''''''''''''''''
 endsWith()
 indexOf()
 startsWith()
@@ -16,7 +16,7 @@ toUpperCase()
 trim()
 
 Escape sequence :
-
+'''''''''''''''''
 \n -> new line
 \" -> double quotes
 \\ -> 
@@ -25,4 +25,11 @@ Escape sequence :
 
 
 Arrays
+'''''''
+int[] numbers= new int[5]
 
+for displaying the number 
+
+Arrays.toString(numbers)
+
+Arrays.sort(number)
