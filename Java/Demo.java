@@ -43,5 +43,7 @@ public class Demo{
 
         System.out.println(Arrays.deepToString(numbers2));
         
+        int[][] num1= {{1,2,3},{1,2}};
+        System.out.println(Arrays.deepToString(num1));
     }
 }
