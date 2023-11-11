@@ -33,3 +33,11 @@ for displaying the number
 Arrays.toString(numbers)
 
 Arrays.sort(number)
+
+
+
+multi Dimensional Arrays
+'''''''''''''''''''''''
+int[][] numbers=new int[5][5]
+
+int multi dimensional array deep to string instead of tostring in single dimensional array

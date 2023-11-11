@@ -33,6 +33,15 @@ public class Demo{
         System.out.println(Arrays.toString(numbers));
         Arrays.sort(num);
         System.out.println(Arrays.toString(num));
+
+
+        //multi dimensional arrays
+
+
+        int[][] numbers2=new int[5][5];
+        numbers2[0][0]=4;
+
+        System.out.println(Arrays.deepToString(numbers2));
         
     }
 }
