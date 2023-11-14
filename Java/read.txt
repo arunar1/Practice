@@ -112,16 +112,72 @@ jdk = jre + compiler
 jre = jvm 
 
 buzzwords : 
-platform independent 
+'''''''''''
+1.platform independent 
 
         jvm : operating system depended
 
         Diffferent operating syetem habe different jvm and output is ame 
 
-object oriented concept
+2.object oriented concept
         abstracion,encapsulation,polymorphism,inheritence
-simple to implement
-secure
-robust
+3.simple to implement
+4.secure
+5.robust
+6.Portable
+7.Multithreading: improve cpu utiliZation
+8.Distributed Application
+9.Architecture Neutral
 
+
+
+
+oops:
+''''
+object :real world  entity consist of property and tasks
+            eg: human  property : name,color,height,weight  task : walk(),run(),read()
+
+class  : blue print of the object 
+            student property: name,roll no, DOJ
+
+
+
+
+Abstracion :
+        showing only essential part and hiding the implementation
+        download application apk file is get no other data can seen everthing is hidden
+
+
+Encapsulation:
+        Binding varibles and methods under single enntity
+
+
+
+
+inheritence:
+
+        Aquiring propery of one class to another class
+
+        parent class and child class
+        superclass subclass relation
+
+        single inheritance
+        multi level inheritance
+        hierachical inheritance
+
+
+
+
+polymorphism:performing same task in different ways
+
+        Add()
+        Add(int a,int b)
+
+        draw()=> triangle,square,rectagle
+
+        
+
+
+
+         
 
