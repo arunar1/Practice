@@ -217,3 +217,19 @@ default
 break
 continue
 for
+
+boolean
+byte
+short
+int
+char
+float
+double
+long
+
+(Access specifiers)
+public 
+protected
+private
+
+
