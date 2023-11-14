@@ -103,3 +103,25 @@ Math.max()
 Reading input
 ''''''''''''''
 
+
+
+
+
+jdk = jre + compiler
+
+jre = jvm 
+
+buzzwords : 
+platform independent 
+
+        jvm : operating system depended
+
+        Diffferent operating syetem habe different jvm and output is ame 
+
+object oriented concept
+        abstracion,encapsulation,polymorphism,inheritence
+simple to implement
+secure
+robust
+
+
