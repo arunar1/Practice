@@ -175,9 +175,45 @@ polymorphism:performing same task in different ways
 
         draw()=> triangle,square,rectagle
 
-        
+
+Keywords
+''''''''
 
 
+import : 
+class :
+this : method perticular to current object
+super : access method in inheritance
+extends:
+package:
+return
 
-         
+try
+catch
+finally
+throw
+throws
 
+final
+
+strictfp
+instanceof : whether object is a instance of a class or not
+enum : Special datatype which give some predefined values
+interface : multiple inheritance concept can achive
+assert : boolean conditopn given in the program
+native : modifier for a method
+volatile 
+implement : create an interface
+abstract : declaration of method
+
+
+do 
+for 
+while
+if 
+else
+switch
+default
+break
+continue
+for
