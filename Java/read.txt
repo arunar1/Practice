@@ -308,6 +308,18 @@ concat => str1= str.concat("welcome")
 
 StringBuffer
 ''''''''''''
+StringBuffer str= new StringBuffer("Welcome")
 
-
+method 
+''''''
+str.append(string)
+str.insert(index,string)
+str.delete(strat_index,end_index)
+str.reverse()
+str.replace(strat_index,end_index,string)
+str.length()
+str.subString(index)
+str.indexOf(char)
+str.charAt(index)
+str.subsequence(start_index,end_index)
 
