@@ -233,3 +233,57 @@ protected
 private
 
 
+Naming convention
+''''''''''''''''''
+
+Keywords can't be used
+case sensitive
+camelcasing in the naming should follow
+        add, readNum, addFile, getName
+
+
+datatype
+'''''''''
+
+primative datatype :    boolean(True/False(default))
+                        byte
+                        char
+                        short
+                        int 
+                        long
+                        float
+                        double
+
+non- primitive datatype :       String
+                                Array
+                                class  
+
+
+
+Scanner:
+'''''''
+next()
+nextInt()
+nextFloat()
+nextDouble()
+
+BufferReader:
+'''''''''''''
+read input from keyboard or by using file
+
+InputStreamReader
+FileReader
+
+read() - read single character
+
+readLine() - read multiple character string
+
+parsInt,parseDouble,........
+
+
+ 
+ 
+
+
+
+
