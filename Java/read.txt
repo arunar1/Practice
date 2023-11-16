@@ -282,8 +282,32 @@ parsInt,parseDouble,........
 
 
  
- 
+ class
+ ''''''
+///////////////////////
+ String
+ '''''''
 
+java.lang.*;
+
+immutable : cannot modify
+
+memory is wasted :- require more memory
+
+methods :
+''''''''
+length() => str.length()
+indexOf() => indexOf(str)
+charAt() => str.charAt()
+replace() => str.replace(old string, new string)
+toLowerCase() => str.toLowerCase()
+toUpperCase() => str.toLowerCase()
+compareTo() => str.compareTo(str1) 
+trim() =>str.trim()
+concat => str1= str.concat("welcome")
+
+StringBuffer
+''''''''''''
 
 
 

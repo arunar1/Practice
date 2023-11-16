@@ -9,7 +9,7 @@ public class constructor {
 
     constructor(String str, int rn){
         name=str;
-        rno=rn;
+        rno=rn ;
     }
     public static void main(String[] args) {
 
