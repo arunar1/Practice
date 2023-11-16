@@ -323,3 +323,17 @@ str.indexOf(char)
 str.charAt(index)
 str.subsequence(start_index,end_index)
 
+overloading (polymorphism)
+'''''''''''
+constructor overloading
+method overloading
+operator overloading
+
+same name differnet parameter
+
+all this called as polymorphism
+
+
+
+
+
