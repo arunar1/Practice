@@ -335,5 +335,21 @@ all this called as polymorphism
 
 
 
+Inheritance
+'''''''''''
+multi Inheritance
+Hybrid Inheritance
+
+
+can't acheive in java
+
+single 
+multi- level
+Hierarchical
+
+
+extends used to inheritance
+
+
 
 
