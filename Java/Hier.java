@@ -22,7 +22,7 @@ public class Hier {
         B obj1= new B();
         C obj2=new C();
 
-        obj1.display();
+        obj1.display1();
         obj2.display2();
         
     }
