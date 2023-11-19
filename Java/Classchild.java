@@ -18,6 +18,7 @@ class B extends A{
 
 public class Classchild {
     public static void main(String[] args) {
+        
         B obj1=new B();
         System.out.println(obj1.a);
 
