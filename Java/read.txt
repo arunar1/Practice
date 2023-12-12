@@ -358,3 +358,21 @@ Access immediate parent class method
 Access immediate parent  class  constructor
 
 
+Abstract class and Method 
+'''''''''''''''''''''''''
+abstract method: only declaration but no definition
+
+abstract class: object cannot be created
+class contain atleat one abstract method
+
+have abstract method and normal method
+
+implementation of abstract method will be written in derived class
+
+concrete class:
+        class contains complete definition for all method
+
+        object can be created
+
+
+
