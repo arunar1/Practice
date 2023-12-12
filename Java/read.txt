@@ -384,4 +384,22 @@ only abstract method : writing only the method declaration,not definition
 
 
 
+Exception Handling
+''''''''''''''''''
 
+Avoiding Abnormal termination
+try   
+catch
+throw
+throws
+finally
+
+
+checked exception - compiler time
+
+unchecked exceprtion - run time 
+                        Arithmetic 
+                        number format
+                        arrat index out of range
+                        null pointer exception
+error
