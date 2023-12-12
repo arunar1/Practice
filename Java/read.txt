@@ -374,5 +374,14 @@ concrete class:
 
         object can be created
 
+interface
+'''''''''
+achive multiple inheritence
+
+two keyword interface, implements
+
+only abstract method : writing only the method declaration,not definition
+
+
 
 
