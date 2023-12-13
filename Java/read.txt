@@ -416,3 +416,8 @@ numberformat exception : string str="hello"
 
 ArrayIndexOutOfBoundException - int a[]=new int[5]
                                 a[6]=4;
+
+
+userdefined package
+''''''''''''''''''''
+

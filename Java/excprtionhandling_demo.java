@@ -1,11 +1,17 @@
 class Ex{
     void display(){
         try {
-            int a=5/0;
+            // int a=5/0;
+
+            String str=null;
+            System.out.println(str.length());
+            int a[]=new int[5];
+            a[5]=5;
             
         } catch (Exception e) {
             System.out.println(e);
         }
+        System.out.println("Exception handled");
     }
 }
 
