@@ -403,3 +403,16 @@ unchecked exceprtion - run time
                         arrat index out of range
                         null pointer exception
 error
+
+runtime exception 
+'''''''''''''''''''
+arithmetic exception : 8/0
+
+nullpointerexception : String str=null;
+                        sout(str.length())
+
+numberformat exception : string str="hello"
+                        int num=Integer.parseInt(str)
+
+ArrayIndexOutOfBoundException - int a[]=new int[5]
+                                a[6]=4;
