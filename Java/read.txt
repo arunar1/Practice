@@ -420,4 +420,14 @@ ArrayIndexOutOfBoundException - int a[]=new int[5]
 
 userdefined package
 ''''''''''''''''''''
+package pakagename;
 
+compiling : javac  -d . filename.java
+
+using import import the package to the required program
+
+
+
+
+Multithreading and multitasking
+''''''''''''''''''''''''''''''
