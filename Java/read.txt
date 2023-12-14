@@ -431,3 +431,43 @@ using import import the package to the required program
 
 Multithreading and multitasking
 ''''''''''''''''''''''''''''''
+multi tasking
+'''''''''''''
+execution of running program
+each program has it's own address space
+heavy weight process
+context switching cost is high
+inter process communication is expensive
+not under control of java
+
+multi threading
+'''''''''''''''
+Individua; part of a program
+multi thread may share commom address specifiers
+light weight process
+context switching cost is low
+ interthread communication is inexpensive
+ controlled in java
+
+ Thread life cycle
+ '''''''''''''''''
+ in java thread is a class
+
+ new--->runnable---->running----->(interption)waiting or blocked
+                       |
+                     stop
+
+
+Thread t =new Thread()
+t.start()
+
+t.run()
+
+t.sleep()
+t.wait()
+
+t.stop()
+
+
+
+
