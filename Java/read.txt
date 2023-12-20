@@ -487,3 +487,16 @@ getId() ; gives id to thread
 getName() : give thread name
                 always start fro thread 0
 
+
+getPriority() : priority ranges from 1 t0 10
+                min-pri :1
+                nor-pri :5
+                max-pri :10
+
+setPriority() : used to set priority
+
+isAlive() : return true if thread is still running ,false if complete the execution
+
+
+
+ 
