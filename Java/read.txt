@@ -470,4 +470,20 @@ t.stop()
 
 
 
+methods of thread class
+'''''''''''''''''''''''
+
+start() : to start the thread
+
+run() : implicitly called by start()
+
+sleep(millisecond) : suspend the Thread
+
+join() : waits the thread to complete its process     
+        used in multi threading
+
+getId() ; gives id to thread
+
+getName() : give thread name
+                always start fro thread 0
 
