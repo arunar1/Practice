@@ -1,6 +1,7 @@
 class th  extends Thread{
     public void run(){
         Thread t=currentThread();
+        System.out.println("Thread status :"+t.isAlive());
         for(int i=0;i<10;i++){
             try {
                 t.sleep(100);                
@@ -33,8 +34,9 @@ class method_thred_demo{
         } catch (Exception e) {
             System.out.println(e);
         }
-
+        
         t2.start();
         
-    }
+        }
+        
 }
