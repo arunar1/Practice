@@ -1,7 +1,7 @@
 import java.io.*;
 
 class Example{
-    void display(){
+    synchronized static void display(){
         Thread t= Thread.currentThread();
         for(int i=0;i<=5;i++){
             try {
@@ -16,21 +16,21 @@ class Example{
 }
 
 class T extends Thread{
-    Example e;
-    T(Example e){
-        this.e=e;
-    }
+   
+    // T(Example e){
+    //     this.e=e;
+    // }
     public void run(){
-        e.display();
+        Example.display();
     }
 }
 
 public class Thread_sync {
     public static void main(String[] args) {
         Example ex= new Example();
-        T t1= new T(ex);
-        T t2=new T(ex);
-        T t3=new T(ex);
+        T t1= new T();
+        T t2=new T();
+        T t3=new T();
         t1.start();
         t2.start();
         t3.start();
