@@ -500,3 +500,41 @@ isAlive() : return true if thread is still running ,false if complete the execut
 
 
  
+Thread synchronization 
+'''''''''''''''''''''''
+
+working with multiple thread sheduling the thread 
+
+thread execution is one by one
+
+3 ways 
+''''''
+1) synchronization keyword
+prefix to the statement which to be executed as thread
+
+2) synchronized block
+
+3) synchronized static block
+
+Introduction to Applets
+'''''''''''''''''''''''
+mainly for generating dynamic content
+work at client side 
+response time will be more
+
+sub class of hierachy
+
+JApplet--> Applet-->panel-->component-->container-->object
+
+java.awt.applet.* to be imported
+
+Life cycle
+''''''''''
+Initialization  : public void init()
+start           : public void start()
+paint           : public void paint(Graphics g)
+stop            : public void stop()
+Destroy         : public void destroy()
+
+
+
