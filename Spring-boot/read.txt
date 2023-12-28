@@ -1,0 +1,27 @@
+what is spring boot 
+'''''''''''''''''''
+bootsrap in spring
+
+easy to create stand alone production-grade spring based applicationthat can just run
+
+appllication framework
+
+programming and configuration model
+
+infrastructure support
+
+problem with spring
+''''''''''''''''''
+
+huge framework
+multiple setup steps
+multiple configuration steps
+multiple build and deploy steps
+
+spring boot :
+opiniated 
+convention over configuration
+stand alone
+
+
+maven  := Dependenecy manager tool n
