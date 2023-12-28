@@ -16,12 +16,18 @@ class demo_1{
 
         double myDouble=1.7;
 
+        // char only single character when string dealing make it in quotes
 
+        char ch='c';
 
+        // boolean 0 or 1 / false or trueb 
 
+        boolean k=true;
          
         System.out.println(myName +" has a dog " + myDog+ " age of " +myShort);
         System.out.println(myDouble);
+        System.out.println(ch);
+        System.out.println(k);
     }
 
 }
