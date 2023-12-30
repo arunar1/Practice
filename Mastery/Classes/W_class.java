@@ -19,6 +19,11 @@ public class W_class {
         c.display("manu", 35);
 
         c.display("Rahul", 16);
+
+        Demo_private demo_1=new Demo_private(12);
+        demo_1.name="ammu";
+        demo_1.welcome();
+        
         
     }
     
