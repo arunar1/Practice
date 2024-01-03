@@ -20,9 +20,14 @@ public class W_class {
 
         c.display("Rahul", 16);
 
-        Demo_private demo_1=new Demo_private(12);
+        Demo_private demo_1=new Demo_private(23);
+        Demo_private demo_2=new Demo_private("red");
+        demo_2.name="manu";
         demo_1.name="ammu";
+        demo_2.age=32;
         demo_1.welcome();
+        demo_2.welcome();
+
         
         
     }
