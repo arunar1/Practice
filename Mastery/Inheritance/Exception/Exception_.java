@@ -1,6 +1,5 @@
-import Exception
 
-public class Exception {
+public class Exception_ {
     public static void main(String[] args) {
         String[] myarray={"hello","hi"};
         try {
