@@ -1,5 +1,6 @@
 // import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.lang.Exception;
 
 public class Error_hand {
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class Error_hand {
             }
             
         } catch (Exception e) {
-            // TODO: handle exception
+
             System.out.println(e);
         }
     }
