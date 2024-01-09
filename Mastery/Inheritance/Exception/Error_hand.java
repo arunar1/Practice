@@ -1,25 +1,30 @@
+
 // import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.lang.Exception;
 
 public class Error_hand {
     public static void main(String[] args) {
-        //array two way initialization
+        // array two way initialization
 
-        int[] number={1,2,3,4,5,};
-        int demo[]={2,3,4};
+        int[] number = { 5, 6, 4, 4, 8, 7, 8, };
+        int demo[] = { 2, 3, 4, 0, 8 };
         System.out.println(number[0]);
-        System.out.println(Arrays.toString(demo));
+        System.out.println(Arrays.toString(number));
         // System.out.println(Arrays.asList(number));
-        try {
-            for(int i=0;i<number.length;i++){
-                System.out.println(demo[i]);
-            }
-            
-        } catch (Exception e) {
+        for (int i = 0; i < number.length; i++) {
 
-            System.out.println(e);
+            try {
+                System.out.println(number[i] / demo[i]);
+
+            } catch (ArithmeticException e) {
+
+                System.out.println("Division by zero not allowed");
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("Array out of bound");
+
+            }
         }
     }
-    
+
 }
