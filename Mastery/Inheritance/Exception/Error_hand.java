@@ -12,7 +12,7 @@ public class Error_hand {
         System.out.println(number[0]);
         System.out.println(Arrays.toString(number));
         // System.out.println(Arrays.asList(number));
-        for (int i = 0; i < number.length; i++) {
+        for (int i = 0; i < number.length; ) {
 
             try {
                 System.out.println(number[i] / demo[i]);
@@ -23,6 +23,11 @@ public class Error_hand {
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Array out of bound");
 
+            }
+            finally{
+                // will always run
+                System.out.println("Running");
+                i++;
             }
         }
     }
