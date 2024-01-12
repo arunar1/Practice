@@ -16,6 +16,7 @@ public class demo {
             animals.remove("Dog");
             animals.add("chicken");
         }
+        animals.add(1,"pig");
         animals.remove(0);
         for(String animal:animals){
             System.out.println("Animal :"+animal);
